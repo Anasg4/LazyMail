@@ -25,8 +25,8 @@ def email():
     done = False
     while not done:
         try:
-            print("\nsend email to")
-            pyttsx3.speak("Send your email to ? " )
+            print("\nwhere the email will be sent ?")
+            pyttsx3.speak("where the email will be sent ? " )
             talk = commandbot()
             print(talk)
             target = email_list[talk]
